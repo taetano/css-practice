@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+#assignment-instructions {
+  font-family: sans-serif;
+  color: #000;
+}
+
+li code {
+  font-family: monospace;
+  color: #ff1b68;
+}
+
+.li2 code {
+  color: green;
+}
+
+ol li {
+  background-color: #000;
+  color: #fff;
+}
+
+ol li:first-child {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ol li:not(:first-child) {
+  background-color: #000;
+  color: #fff;
+} */
