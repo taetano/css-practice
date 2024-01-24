@@ -5,9 +5,20 @@
   4. tag, ::pseudo-elements
   5. universal == *
 */
+/* 
+  block level = width: 100% 가 기본이라고 생각
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
 
 #product-overview {
   background-color: #ff1b68;
+  height: 528px;
 }
 
 .section-title {
